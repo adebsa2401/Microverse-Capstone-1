@@ -28,6 +28,10 @@
     width: 150px;
   }
 
+  .nav-active {
+    color: var(--orange-color);
+  }
+
   #top-nav-bar {
     display: flex;
     align-items: center;
@@ -112,4 +116,19 @@
     text-decoration: underline;
   }
   /* main program section end */
+
+  /* speakers section start */
+  #speakers-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  .speaker-card:nth-child(n+3) {
+    display: flex;
+  }
+
+  #more {
+    display: none;
+  }
+  /* speakers section end */
 }

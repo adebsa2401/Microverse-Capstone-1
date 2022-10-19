@@ -28,6 +28,15 @@ h1 {
   font-weight: bolder;
 }
 
+h2 {
+  text-transform: capitalize;
+  margin-bottom: 0;
+}
+
+h3 {
+  margin-bottom: 0;
+}
+
 #hamburger-menu {
   color: inherit;
 }
@@ -97,12 +106,12 @@ h1 {
 
 #program-section h2 {
   color: var(--white-bg-color);
-  margin-bottom: 0;
 }
 
-#program-section hr {
+hr {
   width: 50px;
   border: 1px solid var(--orange-color);
+  margin: 8px 0;
 }
 
 #program-cards-list {
@@ -144,3 +153,71 @@ h1 {
   color: var(--white-color);
 }
 /* main program section end */
+
+/* speakers section start */
+#speakers-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
+
+#speakers-section h2 {
+  color: var(--dark-color);
+}
+
+#speakers-list {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  padding: 40px 0;
+}
+
+.speaker-card {
+  display: flex;
+  gap: 20px;
+}
+
+.speaker-info hr {
+  width: 10%;
+  border-color: var(--gray-color);
+}
+
+.speaker-card img {
+  height: 100%;
+}
+
+.speaker-role {
+  color: var(--orange-color);
+  font-size: 10px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.speaker-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.speaker-description {
+  font-size: 10px;
+}
+
+.speaker-card:nth-child(n+3) {
+  display: none;
+}
+
+#more {
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  border: solid 1px var(--gray-color);
+  text-decoration: none;
+  color: var(--dark-grey-color);
+}
+
+#more svg {
+  color: var(--orange-color);
+}
+/* speakers section end */
