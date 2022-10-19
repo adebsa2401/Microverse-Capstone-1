@@ -37,6 +37,11 @@ h3 {
   margin-bottom: 0;
 }
 
+.logo {
+  height: 70px;
+  width: 150px;
+}
+
 #hamburger-menu {
   color: inherit;
 }
@@ -263,3 +268,32 @@ hr {
   height: 80px;
 }
 /* Partners section end */
+
+/* footer start */
+footer {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  column-gap: 30px;
+  align-items: center;
+  justify-content: center;
+  grid-template-areas:
+    "img title"
+    "img p";
+}
+
+footer img {
+  grid-area: img;
+}
+
+footer h3 {
+  font-size: 15px;
+  font-weight: normal;
+  grid-area: title;
+}
+
+footer p {
+  font-size: 10px;
+  font-weight: normal;
+  grid-area: p;
+}
+/* footer end */
