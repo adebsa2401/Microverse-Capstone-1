@@ -131,4 +131,11 @@
     display: none;
   }
   /* speakers section end */
+
+  /* partners section start */
+  #partners-list {
+    display: flex;
+    padding: 0;
+  }
+  /* partners section end */
 }
