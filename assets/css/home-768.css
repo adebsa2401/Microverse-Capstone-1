@@ -13,6 +13,7 @@
     text-decoration: none;
   }
 
+  /* headline section start */
   #hamburger-menu {
     display: none;
   }
@@ -66,4 +67,49 @@
     border: solid 4px var(--orange-color);
     padding: 10px;
   }
+  /* headline section end */
+
+  /* main program section start */
+  #program-cards-list {
+    flex-direction: row;
+    gap: 3px;
+  }
+
+  .program-card {
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .program-card img {
+    width: 75px;
+    height: 75px;
+  }
+
+  .program-card label {
+    width: 100%;
+    text-align:  center;
+  }
+
+  .program-card p {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    font-size: 13px;
+  }
+
+  #program-section {
+    padding-bottom: 50px;
+  }
+
+  #program-section button {
+    display: none;
+  }
+
+  #program-section a {
+    display: block;
+    color: var(--white-color);
+    text-transform: uppercase;
+    text-decoration: underline;
+  }
+  /* main program section end */
 }

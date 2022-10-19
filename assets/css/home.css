@@ -7,6 +7,7 @@
   --gray-color: #d3d3d3;
   --white-color: #fff;
   --white-bg-color: #f7f7f8;
+  --transparent-white-color: #ffffff1a;
   --body-child-padding: 10px 20px;
 }
 
@@ -19,6 +20,7 @@ body > * {
   padding: var(--body-child-padding);
 }
 
+/* headline section start */
 h1 {
   color: var(--orange-color);
   text-transform: uppercase;
@@ -80,3 +82,65 @@ h1 {
 #location-info {
   font-size: 15px;
 }
+/* headline section end */
+
+/* main program section start */
+#program-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 40px;
+  background-image: url(../images/pattern_bg.png);
+  background-color: var(--dark-color);
+}
+
+#program-section h2 {
+  color: var(--white-bg-color);
+  margin-bottom: 0;
+}
+
+#program-section hr {
+  width: 50px;
+  border: 1px solid var(--orange-color);
+}
+
+#program-cards-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 40px 0;
+}
+
+.program-card {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: var(--transparent-white-color);
+  padding: 10px;
+}
+
+.program-card img {
+  width: 25%;
+}
+
+.program-card label {
+  color: var(--orange-color);
+  font-size: 20px;
+  font-weight: bold;
+  width: 25%;
+}
+
+.program-card p {
+  color: var(--white-color);
+  width: 50%;
+}
+
+#program-section button {
+  padding: 30px 50px;
+  border: none;
+  font-size: 20px;
+  background-color: var(--orange-color);
+  color: var(--white-color);
+}
+/* main program section end */
