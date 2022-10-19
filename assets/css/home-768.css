@@ -66,6 +66,7 @@
     border: solid 4px var(--orange-color);
     padding: 10px;
   }
+
   /* headline section end */
 
   /* main program section start */
@@ -86,7 +87,7 @@
 
   .program-card label {
     width: 100%;
-    text-align:  center;
+    text-align: center;
   }
 
   .program-card p {
@@ -110,6 +111,7 @@
     text-transform: uppercase;
     text-decoration: underline;
   }
+
   /* main program section end */
 
   /* speakers section start */
@@ -117,7 +119,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
-  
+
   .speaker-card:nth-child(n+3) {
     display: flex;
   }
@@ -125,6 +127,7 @@
   #more {
     display: none;
   }
+
   /* speakers section end */
 
   /* partners section start */
@@ -132,15 +135,17 @@
     display: flex;
     padding: 0;
   }
+
   /* partners section end */
 
   /* footer section start */
-  footer p {
+  #footer-section p {
     display: block;
   }
 
-  footer a {
+  #footer-section a {
     grid-row: 1 / span 2;
   }
+
   /* footer section end */
 }
