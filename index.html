@@ -13,10 +13,26 @@
 
     <link rel="stylesheet" href="assets/css/home.css" />
     <link rel="stylesheet" href="assets/css/home-768.css" />
+    <link rel="stylesheet" href="assets/css/mobile-menu.css">
     <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
     <title>AI Conference</title>
   </head>
   <body>
+    <!-- mobile menu start (mobile only) -->
+    <div hidden class="mobile-menu">
+      <a id="close-menu" href="javascript:void(0)"><i class="fa-solid fa-xmark"></i></a>
+
+      <nav>
+        <a class="menu-active" href="/">Home</a>
+        <a href="/about.html">About</a>
+        <a href="javascript:void(0)">Program</a>
+        <a href="javascript:void(0)">Join</a>
+        <a href="javascript:void(0)">Sponsor</a>
+        <a id="campaign-link" href="javascript:void()">CC Campaign</a>
+      </nav>
+    </div>
+    <!-- mobile menu end (mobile only) -->
+
     <!-- header section start (desktop only) -->
     <header hidden>
       <div id="top-nav-bar">
@@ -43,11 +59,12 @@
 
     <!-- headline start -->
     <div id="headline-bg">
-      <!-- hamburger menu for mobile only -->
+      <!-- hamburger menu start (mobile only) -->
       <a id="hamburger-menu" href="javascript:void(0)"
         ><i class="fa-solid fa-bars fa-2x"></i
       ></a>
-
+      <!-- hamburger menu end (mobile only) -->
+      
       <section id="headline-section">
         <h2>"Hello! Sharing world"</h2>
         <h1>MACHINE ARTIFICIAL INTELLIGENCE GLOBAL SUMMIT 2022</h1>
@@ -273,5 +290,6 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
+    <script src="assets/js/mobile-menu.js"></script>
   </body>
 </html>

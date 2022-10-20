@@ -1,0 +1,36 @@
+.mobile-menu {
+  position: fixed;
+  flex-direction: column;
+  background-color: var(--dark-grey-color);
+  height: 100%;
+  padding: 30px 70px;
+}
+
+.mobile-menu * {
+  color: var(--white-color);
+}
+
+#close-menu {
+  align-self: flex-end;
+}
+
+.mobile-menu nav {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.mobile-menu a {
+  text-decoration: none;
+  font-size: 40px;
+}
+
+.menu-active {
+  color: var(--orange-color);
+}
+
+#campaign-link {
+  color: var(--orange-color);
+  border: solid 4px var(--orange-color);
+  padding: 10px;
+}

@@ -13,10 +13,26 @@
 
     <link rel="stylesheet" href="assets/css/about.css" />
     <link rel="stylesheet" href="assets/css/about-768.css" />
+    <link rel="stylesheet" href="assets/css/mobile-menu.css">
     <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico" />
     <title>About AI Conference</title>
   </head>
   <body>
+    <!-- mobile menu start (mobile only) -->
+    <div hidden class="mobile-menu">
+      <a id="close-menu" href="javascript:void(0)"><i class="fa-solid fa-xmark"></i></a>
+
+      <nav>
+        <a href="/">Home</a>
+        <a class="menu-active" href="/about.html">About</a>
+        <a href="javascript:void(0)">Program</a>
+        <a href="javascript:void(0)">Join</a>
+        <a href="javascript:void(0)">Sponsor</a>
+        <a id="campaign-link" href="javascript:void()">CC Campaign</a>
+      </nav>
+    </div>
+    <!-- mobile menu end (mobile only) -->
+
     <!-- header section start (desktop only) -->
     <header hidden>
       <div id="top-nav-bar">
@@ -135,5 +151,6 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
+    <script src="assets/js/mobile-menu.js"></script>
   </body>
 </html>

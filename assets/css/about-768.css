@@ -36,10 +36,6 @@
     padding: 10px var(--body-child-padding-h);
   }
 
-  nav a {
-    color: var(--dark-grey-color);
-  }
-
   #top-nav-bar a {
     color: var(--white-color);
   }
@@ -51,10 +47,14 @@
     padding: 10px var(--body-child-padding-h);
   }
 
-  nav {
+  #nav-bar nav {
     display: flex;
     align-items: center;
     gap: 50px;
+  }
+
+  #nav-bar nav a {
+    color: var(--dark-grey-color);
   }
 
   #headline-bg {
