@@ -1,6 +1,21 @@
 @media screen and (min-width: 768px) {
   /* main program section start */
-  #program-cards-list {
+  #program-section {
+    padding-bottom: 50px;
+  }
+
+  #program-section button {
+    display: none;
+  }
+
+  #program-section a {
+    display: block;
+    color: var(--white-color);
+    text-transform: uppercase;
+    text-decoration: underline;
+  }
+
+  #program-section ul {
     flex-direction: row;
     gap: 3px;
   }
@@ -27,21 +42,6 @@
     font-size: 13px;
   }
 
-  #program-section {
-    padding-bottom: 50px;
-  }
-
-  #program-section button {
-    display: none;
-  }
-
-  #program-section a {
-    display: block;
-    color: var(--white-color);
-    text-transform: uppercase;
-    text-decoration: underline;
-  }
-
   /* main program section end */
 
   /* speakers section start */
@@ -61,7 +61,7 @@
   /* speakers section end */
 
   /* partners section start */
-  #partners-list {
+  #partners-section ul {
     display: flex;
     padding: 0;
   }

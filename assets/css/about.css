@@ -126,9 +126,12 @@
   justify-content: center;
   color: var(--white-color);
   padding: 50px 0;
-  background: linear-gradient(
-    #ec5242cc, 
-    #ec5242cc), url(../images/2013.jpeg) no-repeat;
+  background:
+    linear-gradient(
+      #ec5242cc,
+      #ec5242cc
+    ),
+    url(../images/2013.jpeg) no-repeat;
   background-size: cover;
 }
 
@@ -138,49 +141,3 @@
 }
 
 /* past summits section end */
-
-/* Partners section start */
-#partners-section {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-top: 30px;
-  padding-bottom: 40px;
-  background-color: var(--dark-grey-color);
-}
-
-#partners-section h2 {
-  color: var(--gray-color);
-}
-
-#partners-list {
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  gap: 0 20px;
-  padding: 20px 0;
-}
-
-#partners-list img {
-  width: 120px;
-  height: 80px;
-}
-
-#footer-section img {
-  grid-area: img;
-}
-
-#partners-list img:nth-child(-1n + 3) {
-  grid-column: span 4;
-}
-
-#partners-list img:nth-last-child(2) {
-  grid-row-start: 2;
-  grid-column: 3 / span 4;
-}
-
-#partners-list img:nth-last-child(1) {
-  grid-row-start: 2;
-  grid-column: 7 / span 4;
-}
-
-/* Partners section end */

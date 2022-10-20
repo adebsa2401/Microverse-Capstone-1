@@ -14,14 +14,13 @@
   align-self: flex-end;
 }
 
-.mobile-menu nav {
+.mobile-menu ul {
   display: flex;
   flex-direction: column;
   gap: 30px;
 }
 
 .mobile-menu a {
-  text-decoration: none;
   font-size: 40px;
 }
 

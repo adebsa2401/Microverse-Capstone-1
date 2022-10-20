@@ -11,11 +11,8 @@
     color: var(--orange-color);
   }
 
-  #nav-path a {
-    color: var(--dark-grey-color);
-  }
-
-  #nav-path:not(:empty) {
+  #nav-path a,
+  #nav-path li {
     color: var(--dark-grey-color);
   }
 
