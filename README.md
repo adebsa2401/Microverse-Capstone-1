@@ -13,7 +13,7 @@
 
 ## Live Demo
 
-Go ahead this [loom video]() to have a deeper insight on the features we implemented in that project.
+Go ahead this [loom video]() to have a deeper insight on the features we implemented in that project. You can also visit the website [here](https://adebsa2401.github.io/Microverse-Capstone-1/)
 
 ## Getting Started
 
