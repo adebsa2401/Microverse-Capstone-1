@@ -28,9 +28,3 @@
 .menu-active {
   color: var(--orange-color);
 }
-
-#campaign-link {
-  color: var(--orange-color);
-  border: solid 4px var(--orange-color);
-  padding: 10px;
-}

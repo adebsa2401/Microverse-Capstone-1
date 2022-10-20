@@ -1,66 +1,4 @@
 @media screen and (min-width: 768px) {
-  :root {
-    --body-child-padding-v: 0;
-    --body-child-padding-h: 200px;
-    --body-child-padding: var(--body-child-padding-v) var(--body-child-padding-h);
-  }
-
-  body > * {
-    padding: var(--body-child-padding);
-  }
-
-  a {
-    text-decoration: none;
-  }
-
-  /* headline section start */
-  #hamburger-menu {
-    display: none;
-  }
-
-  header {
-    display: block;
-    padding: 0;
-  }
-
-  .nav-active {
-    color: var(--orange-color);
-  }
-
-  #top-nav-bar {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    gap: 20px;
-    background-color: var(--dark-grey-color);
-    padding: 10px var(--body-child-padding-h);
-  }
-
-  #top-nav-bar a {
-    color: var(--white-color);
-  }
-
-  #nav-bar {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 10px var(--body-child-padding-h);
-  }
-
-  #nav-bar nav {
-    display: flex;
-    align-items: center;
-    gap: 50px;
-  }
-
-  #nav-bar nav a {
-    color: var(--dark-grey-color);
-  }
-
-  #headline-bg {
-    background-image: url(../images/main_big.png);
-  }
-
   #nav-path {
     display: flex;
     align-self: flex-end;
@@ -87,12 +25,6 @@
 
   #headline-section h1 {
     width: 60%;
-  }
-
-  #campaign-link {
-    color: var(--orange-color);
-    border: solid 4px var(--orange-color);
-    padding: 10px;
   }
 
   /* headline section end */
@@ -131,14 +63,6 @@
   #footer-section {
     background-color: var(--dark-color);
     color: var(--white-color);
-  }
-
-  #footer-section p {
-    display: block;
-  }
-
-  #footer-section a {
-    grid-row: 1 / span 2;
   }
 
   /* footer section end */
