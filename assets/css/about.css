@@ -146,8 +146,14 @@ hr {
 
 /* logo section end */
 
-/* speakers section start */
-#speakers-section {
+.separator {
+  width: 100%;
+  border: 0.5px solid var(--gray-color);
+  padding: 0;
+}
+
+/* past summits section start */
+#past-summits-section {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -155,66 +161,45 @@ hr {
   padding-bottom: 40px;
 }
 
-#speakers-section h2 {
-  color: var(--dark-color);
-}
-
-#speakers-list {
-  display: flex;
-  flex-direction: column;
-  gap: 50px;
-  padding: 40px 0;
-}
-
-.speaker-card {
-  display: flex;
-  gap: 20px;
-}
-
-.speaker-info hr {
-  width: 10%;
-  border-color: var(--gray-color);
-}
-
-.speaker-card img {
-  height: 100%;
-}
-
-.speaker-role {
-  color: var(--orange-color);
-  font-size: 10px;
-  font-weight: bold;
-  font-style: italic;
-}
-
-.speaker-info {
-  display: flex;
-  flex-direction: column;
-}
-
-.speaker-description {
-  font-size: 10px;
-}
-
-.speaker-card:nth-child(n+3) {
-  display: none;
-}
-
-#more {
-  width: 100%;
-  text-align: center;
-  text-transform: uppercase;
-  padding: 10px;
-  border: solid 1px var(--gray-color);
-  text-decoration: none;
+#past-summits-section h2 {
   color: var(--dark-grey-color);
+  font-weight: lighter;
+  text-align: center;
+  width: 70%;
 }
 
-#more svg {
-  color: var(--orange-color);
+#past-summits-section p {
+  width: 80%;
+  text-align: center;
 }
 
-/* speakers section end */
+#summits-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 90%;
+  padding: 20px;
+}
+
+.summit-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: var(--white-color);
+  padding: 50px 0;
+  background: linear-gradient(
+    #ec5242cc, 
+    #ec5242cc), url(../images/2013.jpeg) no-repeat;
+  background-size: cover;
+}
+
+.summit-card h3 {
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+/* past summits section end */
 
 /* Partners section start */
 #partners-section {

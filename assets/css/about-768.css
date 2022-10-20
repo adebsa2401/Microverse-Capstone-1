@@ -105,34 +105,34 @@
   #logo-frame {
     width: 60%;
   }
-  
+
   /* logo section end */
 
-  /* speakers section start */
-  #speakers-list {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+  /* past summits section start */
+  #summits-list {
+    flex-direction: row;
+    justify-content: space-between;
   }
 
-  .speaker-card:nth-child(n+3) {
-    display: flex;
+  .summit-card {
+    width: 100%;
   }
 
-  #more {
-    display: none;
-  }
-
-  /* speakers section end */
+  /* past summits section end */
 
   /* partners section start */
-  #partners-list {
-    display: flex;
-    padding: 0;
+  #partners-section {
+    display: none;
   }
 
   /* partners section end */
 
   /* footer section start */
+  #footer-section {
+    background-color: var(--dark-color);
+    color: var(--white-color);
+  }
+
   #footer-section p {
     display: block;
   }
