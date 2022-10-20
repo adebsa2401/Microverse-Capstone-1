@@ -3,7 +3,7 @@
   flex-direction: column;
   background-color: var(--dark-grey-color);
   height: 100%;
-  padding: 30px 70px;
+  padding: 30px;
 }
 
 .mobile-menu * {
