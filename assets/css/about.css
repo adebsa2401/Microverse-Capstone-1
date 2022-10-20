@@ -9,7 +9,7 @@
   padding-top: 20px;
 }
 
-#headline-section h2 {
+#headline-section .hello-message {
   color: var(--orange-color);
   font-weight: lighter;
   font-size: 30px;

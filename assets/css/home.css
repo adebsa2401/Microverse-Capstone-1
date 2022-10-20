@@ -6,7 +6,7 @@
   padding-top: 51px;
 }
 
-#headline-section h2 {
+#headline-section .hello-message {
   color: var(--orange-color);
   font-weight: lighter;
   font-size: 40px;
@@ -27,7 +27,7 @@
   width: 50%;
 }
 
-#headline-section p {
+#headline-section .headline-description {
   padding: 20px;
   margin-top: 0;
   max-width: 631px;
@@ -80,6 +80,11 @@
   gap: 10px;
   background-color: var(--transparent-white-color);
   padding: 10px;
+}
+
+.program-card:hover,
+.program-card:active {
+  border: solid 3px var(--white-color);
 }
 
 .program-card img {
