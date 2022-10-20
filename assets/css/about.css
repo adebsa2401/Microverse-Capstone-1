@@ -1,0 +1,143 @@
+#headline-bg {
+  padding-bottom: 50px;
+}
+
+#headline-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+}
+
+#headline-section .hello-message {
+  color: var(--orange-color);
+  font-weight: lighter;
+  font-size: 30px;
+  margin-bottom: 25px;
+}
+
+#headline-section h1 {
+  font-size: 40px;
+  margin-top: 0;
+  font-weight: bolder;
+  color: var(--orange-color);
+  text-align: center;
+}
+
+#description {
+  padding: 20px;
+  margin-top: 0;
+  max-width: 631px;
+  line-height: 150%;
+  text-align: center;
+  border: 1px solid #dfdfdf;
+  background-color: var(--white-color);
+  color: var(--dark-grey-color);
+  font-size: 13px;
+}
+
+#contact-us {
+  font-size: 13px;
+  margin-bottom: 4px;
+  text-align: center;
+  color: var(--dark-grey-color);
+}
+
+#mail {
+  font-size: 15px;
+  color: var(--dark-color);
+}
+
+/* headline section end */
+
+/* logo section start */
+#logo-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
+
+#logo-section h2 {
+  color: var(--dark-grey-color);
+  font-weight: lighter;
+  text-align: center;
+  width: 70%;
+}
+
+#logo-section p {
+  width: 80%;
+  text-align: center;
+}
+
+#logo-frame {
+  margin-top: 55px;
+  text-align: center;
+  border: 1px solid var(--gray-color);
+}
+
+#logo-frame img {
+  width: 60%;
+  height: auto;
+}
+
+/* logo section end */
+
+.separator {
+  width: 100%;
+  border: 0.5px solid var(--gray-color);
+  padding: 0;
+}
+
+/* past summits section start */
+#past-summits-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
+
+#past-summits-section h2 {
+  color: var(--dark-grey-color);
+  font-weight: lighter;
+  text-align: center;
+  width: 70%;
+}
+
+#past-summits-section p {
+  width: 80%;
+  text-align: center;
+}
+
+#summits-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 90%;
+  padding: 20px;
+}
+
+.summit-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: var(--white-color);
+  padding: 50px 0;
+  background:
+    linear-gradient(
+      #ec5242cc,
+      #ec5242cc
+    ),
+    url(../images/2013.jpeg) no-repeat;
+  background-size: cover;
+}
+
+.summit-card h3 {
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+/* past summits section end */

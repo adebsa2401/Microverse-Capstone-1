@@ -1,0 +1,178 @@
+#headline-bg {
+  padding-bottom: 100px;
+}
+
+#headline-section {
+  padding-top: 51px;
+}
+
+#headline-section .hello-message {
+  color: var(--orange-color);
+  font-weight: lighter;
+  font-size: 40px;
+}
+
+#headline-section h1 {
+  font-size: 50px;
+  margin-top: 0;
+  font-weight: bolder;
+  background: url(../images/title-bg.webp);
+  background-position: center center;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.program-card p {
+  color: var(--white-color);
+  width: 50%;
+}
+
+#headline-section .headline-description {
+  padding: 20px;
+  margin-top: 0;
+  max-width: 631px;
+  line-height: 150%;
+  text-align: justify;
+  border: solid 4px var(--white-color);
+  background-color: var(--white-bg-color);
+  font-size: 13px;
+}
+
+#date-info {
+  font-weight: bolder;
+  font-size: 30px;
+  letter-spacing: 0;
+  margin-bottom: 4px;
+  color: var(--dark-grey-color);
+}
+
+#location-info {
+  font-size: 15px;
+}
+
+/* headline section end */
+
+/* main program section start */
+#program-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 40px;
+  background-image: url(../images/pattern_bg.png);
+  background-color: var(--dark-color);
+}
+
+#program-section h2 {
+  color: var(--white-bg-color);
+}
+
+#program-section ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 40px 0;
+}
+
+.program-card {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: var(--transparent-white-color);
+  padding: 10px;
+}
+
+.program-card:hover,
+.program-card:active {
+  border: solid 3px var(--white-color);
+}
+
+.program-card img {
+  width: 25%;
+}
+
+.program-card label {
+  color: var(--orange-color);
+  font-size: 20px;
+  font-weight: bold;
+  width: 25%;
+}
+
+#program-section button {
+  padding: 30px 50px;
+  border: none;
+  font-size: 20px;
+  background-color: var(--orange-color);
+  color: var(--white-color);
+}
+
+/* main program section end */
+
+/* speakers section start */
+#speakers-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
+
+#speakers-section h2 {
+  color: var(--dark-color);
+}
+
+#speakers-list {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  padding: 40px 0;
+}
+
+.speaker-card {
+  display: flex;
+  gap: 20px;
+}
+
+.speaker-info hr {
+  width: 10%;
+  border-color: var(--gray-color);
+}
+
+.speaker-card img {
+  height: 100%;
+}
+
+.speaker-role {
+  color: var(--orange-color);
+  font-size: 10px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.speaker-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.speaker-description {
+  font-size: 10px;
+}
+
+.speaker-card:nth-child(n+3) {
+  display: none;
+}
+
+#more {
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 10px;
+  border: solid 1px var(--gray-color);
+  color: var(--dark-grey-color);
+}
+
+#more svg {
+  color: var(--orange-color);
+}
+
+/* speakers section end */

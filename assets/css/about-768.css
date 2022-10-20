@@ -1,0 +1,66 @@
+@media screen and (min-width: 768px) {
+  #nav-path {
+    display: flex;
+    align-self: flex-end;
+    align-items: center;
+    padding-bottom: 40px;
+    gap: 5px;
+  }
+
+  #nav-path .fa-chevron-right {
+    color: var(--orange-color);
+  }
+
+  #nav-path a,
+  #nav-path li {
+    color: var(--dark-grey-color);
+  }
+
+  #headline-section h2 {
+    display: none;
+  }
+
+  #headline-section h1 {
+    width: 60%;
+  }
+
+  /* headline section end */
+
+  /* logo section start */
+  #logo-section {
+    padding-bottom: 50px;
+  }
+
+  #logo-frame {
+    width: 60%;
+  }
+
+  /* logo section end */
+
+  /* past summits section start */
+  #summits-list {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .summit-card {
+    width: 100%;
+  }
+
+  /* past summits section end */
+
+  /* partners section start */
+  #partners-section {
+    display: none;
+  }
+
+  /* partners section end */
+
+  /* footer section start */
+  #footer-section {
+    background-color: var(--dark-color);
+    color: var(--white-color);
+  }
+
+  /* footer section end */
+}
