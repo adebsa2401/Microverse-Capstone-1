@@ -97,50 +97,16 @@
 
   /* headline section end */
 
-  /* main program section start */
-  #program-cards-list {
-    flex-direction: row;
-    gap: 3px;
-  }
-
-  .program-card {
-    flex-direction: column;
-    gap: 5px;
-  }
-
-  .program-card img {
-    width: 75px;
-    height: 75px;
-  }
-
-  .program-card label {
-    width: 100%;
-    text-align: center;
-  }
-
-  .program-card p {
-    width: 100%;
-    text-align: center;
-    margin: 0;
-    font-size: 13px;
-  }
-
-  #program-section {
+  /* logo section start */
+  #logo-section {
     padding-bottom: 50px;
   }
 
-  #program-section button {
-    display: none;
+  #logo-frame {
+    width: 60%;
   }
-
-  #program-section a {
-    display: block;
-    color: var(--white-color);
-    text-transform: uppercase;
-    text-decoration: underline;
-  }
-
-  /* main program section end */
+  
+  /* logo section end */
 
   /* speakers section start */
   #speakers-list {

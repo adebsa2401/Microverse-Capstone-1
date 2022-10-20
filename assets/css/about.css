@@ -30,7 +30,7 @@ h1 {
 
 h2 {
   text-transform: capitalize;
-  /* margin-bottom: 0; */
+  margin-bottom: 0;
 }
 
 h3 {
@@ -64,6 +64,7 @@ h3 {
   color: var(--orange-color);
   font-weight: lighter;
   font-size: 30px;
+  margin-bottom: 25px;
 }
 
 #headline-section h1 {
@@ -105,19 +106,36 @@ h3 {
 
 /* headline section end */
 
-/* main program section start */
-#program-section {
+/* logo section start */
+#logo-section {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding-top: 30px;
   padding-bottom: 40px;
-  background-image: url(../images/pattern_bg.png);
-  background-color: var(--dark-color);
 }
 
-#program-section h2 {
-  color: var(--white-bg-color);
+#logo-section h2 {
+  color: var(--dark-grey-color);
+  font-weight: lighter;
+  text-align: center;
+  width: 70%;
+}
+
+#logo-section p {
+  width: 80%;
+  text-align: center;
+}
+
+#logo-frame {
+  margin-top: 55px;
+  text-align: center;
+  border: 1px solid var(--gray-color);
+}
+
+#logo-frame img {
+  width: 60%;
+  height: auto;
 }
 
 hr {
@@ -126,41 +144,7 @@ hr {
   margin: 8px 0;
 }
 
-#program-cards-list {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  padding: 40px 0;
-}
-
-.program-card {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  background-color: var(--transparent-white-color);
-  padding: 10px;
-}
-
-.program-card img {
-  width: 25%;
-}
-
-.program-card label {
-  color: var(--orange-color);
-  font-size: 20px;
-  font-weight: bold;
-  width: 25%;
-}
-
-#program-section button {
-  padding: 30px 50px;
-  border: none;
-  font-size: 20px;
-  background-color: var(--orange-color);
-  color: var(--white-color);
-}
-
-/* main program section end */
+/* logo section end */
 
 /* speakers section start */
 #speakers-section {
